@@ -29,11 +29,20 @@ To create a production build:
 npm run build
 ```
  
-## Deployment
+## Setup & Deployment Operations
 
-This project is configured to automatically deploy to GitHub Pages when pushing to the `main` branch.
+This project has been fully configured for a seamless development and deployment experience:
 
-1. Go to your repository **Settings** -> **Pages**.
-2. Under "Build and deployment", set **Source** to **GitHub Actions**.
-3. Push your code to the `main` branch.
-4. The deployment workflow will trigger automatically.
+### 1. Project Initialization & Dependencies
+- Configured `package.json` with React, Vite, and necessary UI libraries.
+- Run `npm install` to download dependencies.
+- Run `npm run dev` to spin up the local dev server.
+
+### 2. GitHub Actions Deployment
+- A GitHub Action (`.github/workflows/deploy.yml`) is set up to automatically build and deploy your app to **GitHub Pages** whenever you push to the `main` branch.
+- **To enable:**
+  1. Go to your repository **Settings** -> **Pages**.
+  2. Under "Build and deployment", set **Source** to **GitHub Actions**.
+
+### 3. Version Control (`.gitignore`)
+- A comprehensive `.gitignore` ensures that build outputs (`dist/`), dependencies (`node_modules/`), system files (`.DS_Store`), and sensitive privacy variables (`.env`, `.env.local`) are securely ignored and kept out of your public repository.
