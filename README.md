@@ -53,3 +53,4 @@ This project has been fully configured for a seamless development and deployment
  3. 設計 GitHub Action 部署腳本
  4. 設計 .gitignore，確保不需上傳檔案已被忽略
  5. 將操作記錄到 README.md
+ 6. 需要询问AI如何部署的步骤（deployment）的详细步骤即可
