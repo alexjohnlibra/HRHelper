@@ -48,6 +48,8 @@ This project has been fully configured for a seamless development and deployment
 - A comprehensive `.gitignore` ensures that build outputs (`dist/`), dependencies (`node_modules/`), system files (`.DS_Store`), and sensitive privacy variables (`.env`, `.env.local`) are securely ignored and kept out of your public repository.
 
 指令集修改
+
+請擔任資深的 React 工程師，幫專案完成以下任務：
  1. 設定 package.json 並安裝套件
  2. 確認專案可以正常運行
  3. 設計 GitHub Action 部署腳本
