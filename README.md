@@ -46,3 +46,10 @@ This project has been fully configured for a seamless development and deployment
 
 ### 3. Version Control (`.gitignore`)
 - A comprehensive `.gitignore` ensures that build outputs (`dist/`), dependencies (`node_modules/`), system files (`.DS_Store`), and sensitive privacy variables (`.env`, `.env.local`) are securely ignored and kept out of your public repository.
+
+指令集
+ 1. 設定 package.json 並安裝套件
+ 2. 確認專案可以正常運行
+ 3. 設計 GitHub Action 部署腳本
+ 4. 設計 .gitignore，確保不需上傳檔案已被忽略
+ 5. 將操作記錄到 README.md
